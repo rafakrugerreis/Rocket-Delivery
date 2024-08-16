@@ -1,6 +1,6 @@
-## Projeto para um delivery completo
+# Projeto para um delivery completo
 
-# O Projeto incluí:
+## O Projeto incluí:
 -> Criar, editar e excluir um produto
 <br>
 -> Cardápio
