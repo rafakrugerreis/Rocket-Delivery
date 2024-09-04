@@ -39,7 +39,7 @@
           <i class="fas fa-cart-plus"></i>
         </div>
         <div class="infos">
-          <p class="name"><b>Seu carrinho está vazio</b></p>
+          <p class="name mb-0"><b>Seu carrinho está vazio</b></p>
           <span class="text mb-0"
             >Volte ao cardápio, selecione os itens e adicione ao seu
             carrinho.</span
@@ -89,7 +89,9 @@
       <div class="card mb-2 pr-0">
         <div class="detalhes-produto">
           <div class="infos-produto">
-            <p class="name mb-0"><i class="fas fa-motorcycle"></i>&nbsp;<b>Taxa de entrega</b></p>
+            <p class="name mb-0">
+              <i class="fas fa-motorcycle"></i>&nbsp;<b>Taxa de entrega</b>
+            </p>
             <p class="price mb-0 entrega"><b>+ R$: 10,00</b></p>
           </div>
         </div>
@@ -104,8 +106,95 @@
       </div>
     </section>
 
+    <section class="opcionais width-fix mt-5 pb-5">
+      <div class="container-group mb-5">
+        <p class="title-categoria mb-0"><b>Escolha uma opção</b></p>
+        <span class="sub-title-categoria">Como quer receber o pedido?</span>
+        <div class="card card-opcionais mt-2">
+          <div class="infos-produto-opcional">
+            <p class="name mb-0">Entrega (60-90 min)</p>
+          </div>
+          <div class="checks">
+            <label class="container-check">
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card card-opcionais mt-2">
+          <div class="infos-produto-opcional">
+            <p class="name mb-0">Retirar no estabelecimento</p>
+          </div>
+          <div class="checks">
+            <label class="container-check">
+              <input type="checkbox" />
+              <span class="checkmark"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="container-group mb-5">
+        <p class="title-categoria mb-0"><b>Qual o seu endereço</b></p>
+        <span class="sub-title-categoria">Informe o endereço de entrega</span>
+        <div class="card card-select mt-2">
+          <div class="infos-produto-opcional">
+            <p class="mb-0 color-primary">
+              <i class="fas fa-plus-circle"></i>&nbsp;Nenhum endereço cadastrado
+            </p>
+          </div>
+        </div>
+        <div class="card card-address mt-2">
+          <div class="img-icon-details">
+            <i class="fas fa-map-marked-alt"></i>
+          </div>
+          <div class="infos">
+            <p class="name mb-0"><b>Rua Olá Mundo, 123, Meu Bairro</b></p>
+            <span class="text mb-0">Cidade-RS / 12345-678</span>
+          </div>
+          <div class="icon-edit">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container-group mb-5">
+        <p class="title-categoria mb-0"><b>Nome e sobrenome</b></p>
+        <span class="sub-title-categoria">Qual é seu nome?</span>
+        <input type="text" class="form-control mt-2" placeholder="* Informe o nome e sobrenome">
+      </div>
+      <div class="container-group mb-5">
+        <p class="title-categoria mb-0"><b>Telefone</b></p>
+        <span class="sub-title-categoria">Para mais informações do pedido</span>
+        <input type="text" class="form-control mt-2" placeholder="* (00) 00000-0000">
+      </div>
+      <div class="container-group mb-5">
+        <p class="title-categoria mb-0"><b>Forma de pagamento</b></p>
+        <span class="sub-title-categoria">* Pagamento na entrega</span>
+        <div class="card card-select mt-2">
+          <div class="infos-produto-opcional">
+            <p class="mb-0 color-primary">
+              <i class="fas fa-plus-circle"></i>&nbsp;Nenhuma forma de pagamento selecionada
+            </p>
+          </div>
+        </div>
+        <div class="card card-address mt-2">
+          <div class="img-icon-details">
+            <!-- <i class="fas fa-coins"></i> -->
+            <i class="fas fa-credit-card"></i>
+          </div>
+          <div class="infos">
+            <p class="name mb-0"><b>Cartão</b></p>
+            <span class="text mb-0">Levar maquininha</span>
+          </div>
+          <div class="icon-edit">
+            <i class="fas fa-pencil-alt"></i>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
     <a class="btn btn-yellow btn-full" href="index.html">
-      Voltar para o cardápio
+      Fazer pedido &nbsp; <span>R$: 99,90</span>
     </a>
 
     <section class="menu-bottom disabled hidden" id="menu-bottom-closed">
