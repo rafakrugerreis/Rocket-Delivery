@@ -163,3 +163,66 @@ h1.title-page {
   padding-right: 15px;
 }
 
+.conteudo-inner {
+  margin-top: 50px;
+}
+
+/* Menu pedidos */
+
+.menus-pedido i {
+  margin-right: 5px;
+}
+
+.menus-pedido a {
+  margin-right: 10px;
+  opacity: 0.5;
+}
+
+.menus-pedido a.active,
+.menus-pedido a:hover {
+  opacity: 1;
+}
+
+.badge-total-pedidos {
+  display: inline-block;
+  background-color: var(--color-primary-out);
+  border-radius: 50px;
+  font-size: 14px;
+  width: 25px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.numero-pedido {
+  font-size: 16px;
+}
+
+.card-pedido .dropdown {
+  float: right;
+}
+
+.info-pedido {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: var(--color-black);
+}
+
+.info-pedido i {
+  width: 25px;
+  text-align: center;
+}
+
+.info-pedido span {
+  display: block;
+  color: var(--color-text);
+  font-size: 14px;
+}
+
+.separate {
+  height: 1px;
+  background-color: var(--color-text-out);
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Parei no minuto 25:28 */
