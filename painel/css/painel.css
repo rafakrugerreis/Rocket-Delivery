@@ -225,4 +225,80 @@ h1.title-page {
   margin-top: 10px;
 }
 
-/* Parei no minuto 25:28 */
+.horario-pedido {
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.total-pedido {
+  text-align: right;
+  margin-bottom: 0;
+  margin-top: 15px;
+  color: var(--color-primary);
+}
+
+.card-pedido {
+  box-shadow: 1px 0px 15px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-pedido:hover {
+  background-color: #ffe8a3; ;
+}
+
+.card-content {
+  cursor: pointer;
+}
+
+.card-pedido-body {
+  height: 140px;
+}
+
+/* Modal Detalhes */
+
+.modal-content {
+  background: transparent;
+  border: none;
+}
+
+.modal-header {
+  border-bottom: 0;
+  background-color: var(--color-background);
+}
+
+.modal-title {
+  font-size: 18px;
+  color: var(--color-black);
+}
+
+.modal-title .horario-pedido {
+  font-size: 14px;
+  color: var(--color-text);
+  padding-left: 15px;
+}
+
+.modal-body {
+  padding: 0;
+  background-color: var(--color-background);
+}
+
+.container-dados-pedido {
+  padding: 20px;
+  padding-bottom: 25px;
+  background-color: var(--color-background);
+}
+
+.container-dados-pedido .d-flex{
+  justify-content: space-between;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+.container-dados-pedido .info-pedido {
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+
+/* Parei na aula 6.6 pedidos modal detalhes 2 */

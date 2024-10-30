@@ -85,7 +85,7 @@
                 </div>
               </div>
               <div class="col-12">
-                <div class="row lista-pedidos">
+                <div class="row lista-pedidos mt-5">
                   <div class="col-3">
                     <div class="card card-pedido">
                       <div class="card-pedido-header">
@@ -127,7 +127,7 @@
                         </div>
                         <p class="numero-pedido mt-2">#1</p>
                       </div>
-                      <div class="card-content">
+                      <div class="card-content" data-bs-toggle="modal" data-bs-target="#modalDetalhes">
                         <div class="card-pedido-body mt-3">
                           <p class="info-pedido">
                             <i class="fas fa-user"></i> Rafael
@@ -154,6 +154,74 @@
           </div>
         </div>
       </div>
+    </section>
+    <div id="modalDetalhes" class="modal fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">#1 <span class="horario-pedido">Recebido há 33 minutos</span></h5>
+            <button class="btn btn-white btn-sm" type="button" data-bs-dismiss="modal" arial-label="Close">
+              <i class="fas fa-times"></i>&nbsp; Fechar
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-dados-pedido">
+              <div class="row">
+                <div class="col-12">
+                  <div class="card card-address cursor-default">
+                    <div class="img-icon-details">
+                      <i class="fas fa-user"></i>
+                    </div>
+                    <div class="infos pr-0">
+                      <div class="d-flex">
+                        <p class="name mb-0"><b>Rafael</b></p>
+                        <span class="text mb-0">(55) 99999-0000</span>
+                      </div>
+                      <div class="d-flex">
+                        <span class="infos-pedido mb-0">
+                          Recebido em 12/09 às 20:00
+                        </span>
+                        <span class="info-pedido mb-0">
+                          <i class="fas fa-motorcycle"></i> Entrega
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="card card-address cursor-default mt-2">
+                    <div class="img-icon-details">
+                      <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="infos pr-0">
+                        <p class="name mb-0"><b>Dinheiro</b></p>
+                        <span class="text mb-0">Troco para R$: 50,00</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="card card-address mt-2">
+                      <div class="img-icon-details">
+                        <i class="fas fa-map-marked-alt"></i>
+                      </div>
+                      <div class="infos pr-0">
+                          <p class="name mb-0"><b>Rua Olá Mundo, 123, Meu Bairro</b></p>
+                          <span class="text mb-0">Cidade-RS / CEP: 12345-678</span>
+                      </div>
+                      <div class="icon-edit">
+                        <i class="fas fa-location-arrow"></i>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+
     </section>
     <script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
   </body>
